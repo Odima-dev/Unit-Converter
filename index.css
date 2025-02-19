@@ -12,16 +12,49 @@ body {
     background-color: #F4F4F4;
     display: grid;
     text-align: center;
+    margin-top: 70px;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Inter", serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+#title-container > p{
+
+}
+
+#convert-btn {
+
 }
 
 #title-container {
     width: 550px;
     height: 285px;
     background-color: #6943FF;
+    display: grid;
 }
 
 #units-container {
     width: 500px;
     height: 109px;
     background-color: #FFFFFF;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#units-title {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A537B;
+}
+
+#units-length, #units-volume, #units-mass {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: #353535;
 }
