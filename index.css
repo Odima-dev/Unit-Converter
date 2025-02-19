@@ -10,4 +10,18 @@ body {
     width: 550px;
     height: 729px;
     background-color: #F4F4F4;
+    display: grid;
+    text-align: center;
+}
+
+#title-container {
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+}
+
+#units-container {
+    width: 500px;
+    height: 109px;
+    background-color: #FFFFFF;
 }
