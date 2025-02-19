@@ -16,26 +16,48 @@ body {
     padding: 0;
 }
 
-h1 {
-    font-family: "Inter", serif;
-    font-size: 28px;
-    font-weight: 800;
-    color: #FFFFFF;
-}
-
-#title-container > p{
-
-}
-
-#convert-btn {
-
-}
-
 #title-container {
     width: 550px;
     height: 285px;
     background-color: #6943FF;
     display: grid;
+}
+
+h1 {
+    font-family: "Inter", serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+#title-container > p{
+    font-family: "Inter", serif;
+    font-size: 58px;
+    font-weight: 800;
+    color: #FFFFFF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 118px;
+    height: 83px;
+    margin-left: 216px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#convert-btn {
+    width: 118px;
+    height: 42px;
+    background-color: #FFFFFF;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    color: #3D3D3D;
+    margin-left: 216px;
+    border: none;
+    border-radius: 5px;
+
 }
 
 #units-container {
