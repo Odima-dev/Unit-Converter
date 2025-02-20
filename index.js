@@ -19,4 +19,8 @@ function length() {
     console.log(convertFeet)
 }
 
+function volume() {
+    const convertvolume = userInput.value * 0.264
+    console.log(convertFeet)
+}
 
