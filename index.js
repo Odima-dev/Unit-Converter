@@ -4,9 +4,9 @@
 1 kilogram = 2.204 pound
 */
 
-const userInput = document.getElementsByID("user-input")
+const userInput = document.getElementById("user-input")
 const convertBtn = document.getElementById("convert-btn")
 
 convertBtn.addEventListener("click", function() {
-    userInput = userInput.value
+    console.log(userInput.value)
 })
