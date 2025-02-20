@@ -102,92 +102,46 @@ h1 {
 
 /* For devices with a max width of 600px (e.g., mobile phones) */
 @media (max-width: 600px) {
-  #container {
-    width: 90%;   /* Make the container responsive */
-    height: auto; /* Allow height to adjust based on content */
-    margin-top: 20px;
-    padding: 10px;
-  }
-
-  #title-container {
-    width: 100%;  /* Full width within container */
-    height: auto; 
-  }
-
-  h1 {
-    font-size: 24px;  /* Smaller heading */
-  }
-
-  #user-input {
-    width: 80px;
-    height: 60px;
-    margin-left: 0;   /* Center input */
-    margin-top: 10px;
-  }
-
-  #buttons-container {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;     /* Buttons stack vertically */
-  }
-
-  #convert-btn, #clear-btn {
-    width: 80%;
-    margin: 5px 0;
-  }
-
-  #units-container {
-    width: 100%;     /* Full width within container */
-    margin: 10px 0;
-  }
-
-  #units-title {
-    font-size: 18px;
-  }
-
-  #units-length, #units-volume, #units-mass {
-    font-size: 12px;
-  }
-}
-
-/* For devices with a max width of 600px (e.g., mobile phones) */
-@media (max-width: 600px) {
     #container {
-      width: 90%;   /* Make the container responsive */
-      height: auto; /* Allow height to adjust based on content */
+      width: 90%;
+      height: auto;
       margin-top: 20px;
       padding: 10px;
     }
   
     #title-container {
-      width: 100%;  /* Full width within container */
+      width: 100%;
       height: auto; 
     }
   
     h1 {
-      font-size: 24px;  /* Smaller heading */
+      font-size: 24px;
     }
   
     #user-input {
-      width: 80px;
+      width: 80%;
       height: 60px;
-      margin-left: 0;   /* Center input */
-      margin-top: 10px;
+      margin: 10px auto;  /* Centers the input */
+      display: block;
     }
   
     #buttons-container {
-      flex-direction: column;
+      display: flex;
+      flex-direction: row;
       gap: 10px;
-      width: 100%;     /* Buttons stack vertically */
+      justify-content: center;
+      width: 100%; 
+      margin-top: 10px;
     }
   
-    #convert-btn, #clear-btn {
-      width: 80%;
-      margin: 5px 0;
+    #convert-btn, 
+    #clear-btn {
+      width: 45%;   /* Buttons take equal space side by side */
+      margin: 0;
     }
   
     #units-container {
-      width: 100%;     /* Full width within container */
+      width: 100%;
       margin: 10px 0;
     }
   
@@ -195,7 +149,9 @@ h1 {
       font-size: 18px;
     }
   
-    #units-length, #units-volume, #units-mass {
+    #units-length, 
+    #units-volume, 
+    #units-mass {
       font-size: 12px;
     }
   }
