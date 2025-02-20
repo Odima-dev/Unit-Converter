@@ -18,6 +18,7 @@ convertBtn.addEventListener("click", function() {
     mass()
 })
 
+//function to clear user input and conversions
 clearBtn.addEventListener("click", function() {
     userInput.value = ""
     unitsLength.textContent = ""
