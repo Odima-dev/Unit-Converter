@@ -9,4 +9,14 @@ const convertBtn = document.getElementById("convert-btn")
 
 convertBtn.addEventListener("click", function() {
     console.log(userInput.value)
+    length()
+    volume()
+    mass()
 })
+
+function length() {
+    const convertFeet = userInput.value * 3.281
+    console.log(convertFeet)
+}
+
+
