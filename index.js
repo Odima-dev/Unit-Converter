@@ -12,7 +12,6 @@ const unitsVolume = document.getElementById("units-volume")
 const unitsMass = document.getElementById("units-mass")
 
 convertBtn.addEventListener("click", function() {
-    console.log(userInput.value)
     length()
     volume()
     mass()
