@@ -6,6 +6,9 @@
 
 const userInput = document.getElementById("user-input")
 const convertBtn = document.getElementById("convert-btn")
+const unitsLength = document.getElementById("units-length")
+const unitsVolume = document.getElementById("units-volume")
+const unitsMass = document.getElementById("units-mass")
 
 convertBtn.addEventListener("click", function() {
     console.log(userInput.value)
