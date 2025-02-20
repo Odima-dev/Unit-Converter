@@ -21,10 +21,10 @@ function length() {
 
 function volume() {
     const convertvolume = userInput.value * 0.264
-    console.log(convertFeet)
+    console.log(convertvolume)
 }
 
 function mass() {
     const convertmass = userInput.value * 2.204
-    console.log(convertFeet)
+    console.log(convertmass)
 }
