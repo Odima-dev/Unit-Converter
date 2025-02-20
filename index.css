@@ -12,6 +12,8 @@ body {
     background-color: #F4F4F4;
     display: grid;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 70px;
     padding: 0;
 }
@@ -33,7 +35,7 @@ h1 {
     padding: 0;
 }
 
-#title-container > p{
+#user-input{
     font-family: "Inter", serif;
     font-size: 58px;
     font-weight: 800;
@@ -45,6 +47,8 @@ h1 {
     margin-left: 216px;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #convert-btn {
