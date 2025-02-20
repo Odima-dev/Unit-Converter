@@ -24,3 +24,7 @@ function volume() {
     console.log(convertFeet)
 }
 
+function mass() {
+    const convertmass = userInput.value * 2.204
+    console.log(convertFeet)
+}
