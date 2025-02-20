@@ -99,3 +99,54 @@ h1 {
     font-size: 14px;
     color: #353535;
 }
+
+/* For devices with a max width of 600px (e.g., mobile phones) */
+@media (max-width: 600px) {
+    #container {
+      width: 90%;   /* Make the container responsive */
+      height: auto; /* Allow height to adjust based on content */
+      margin-top: 20px;
+      padding: 10px;
+    }
+  
+    #title-container {
+      width: 100%;  /* Full width within container */
+      height: auto; 
+    }
+  
+    h1 {
+      font-size: 24px;  /* Smaller heading */
+    }
+  
+    #user-input {
+      width: 80px;
+      height: 60px;
+      margin-left: 0;   /* Center input */
+      margin-top: 10px;
+    }
+  
+    #buttons-container {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;     /* Buttons stack vertically */
+    }
+  
+    #convert-btn, #clear-btn {
+      width: 80%;
+      margin: 5px 0;
+    }
+  
+    #units-container {
+      width: 100%;     /* Full width within container */
+      margin: 10px 0;
+    }
+  
+    #units-title {
+      font-size: 18px;
+    }
+  
+    #units-length, #units-volume, #units-mass {
+      font-size: 12px;
+    }
+  }
+  
