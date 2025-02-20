@@ -9,22 +9,26 @@ const convertBtn = document.getElementById("convert-btn")
 
 convertBtn.addEventListener("click", function() {
     console.log(userInput.value)
-    length()
-    volume()
-    mass()
+    console.log(length())
+    console.log(volume())
+    console.log(mass())
 })
 
 function length() {
-    const convertFeet = userInput.value * 3.281
-    console.log(convertFeet)
+    const convertFeet = (userInput.value * 3.281).toFixed(3)
+    const convertMeter = (userInput.value / 3.281).toFixed(3)
+    return (`${userInput.value} meters = ${convertFeet} feet | ${userInput.value} feet = ${convertMeter} meters`)    
 }
 
 function volume() {
-    const convertvolume = userInput.value * 0.264
-    console.log(convertvolume)
+    const convertGallons = (userInput.value * 0.264).toFixed(3)
+    const convertLiters = (userInput.value / 0.264).toFixed(3)
+    return (`${userInput.value} liters = ${convertGallons} gallons | ${userInput.value} gallons = ${convertLiters} liters`)
 }
 
 function mass() {
-    const convertmass = userInput.value * 2.204
-    console.log(convertmass)
+    const convertPounds = (userInput.value * 2.204).toFixed(3)
+    const convertKilograms = (userInput.value / 2.204).toFixed(3)
+    return (`${userInput.value} kilos = ${convertPounds} pounds | ${userInput.value} pounds = ${convertKilograms} kilos`)
 }
+
